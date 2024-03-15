@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NasiToys - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./Assets/NasiLogo.png">
+</head>
+<body>
+
+<nav id="mainNav">
+    <div class="logo-container">
+        <div class="logo">
+            <img src="./Assets/NasiLogo.png" alt="Nasitoys Logo">
+        </div>
+        <div>
+            <a class="company-name" href="index.html">NasiToys</a>
+        </div>
+    </div>
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search...">
+        <button id="searchButton"><img src="./Assets/SearchIcon.png" alt="Search"></button>
+        <div id="searchResults" class="search-results"></div>
+    </div>
+    <div class="nav-options">
+        <div class="dropdown home-dropdown">
+            <button class="dropbtn" onclick="window.location.href='index.html'">Home</button>
+        </div>
+        <div class="dropdown product-dropdown">
+            <button class="dropbtn">Products</button>
+            <div class="dropdown-content">
+                <a href="#">Thomas & Friends</a>
+                <a href="#">Custom Thomas Trains</a>
+                <a href="#">Trackmasters</a>
+            </div>
+        </div>
+        <div class="dropdown about-dropdown">
+            <button class="dropbtn">About</button>
+            <div class="dropdown-content">
+                <a href="#">About Us</a>
+                <a href="#">Our Process</a>
+            </div>
+        </div>
+        <div class="dropdown orderstatus-dropdown">
+            <button class="dropbtn">Order Status</button>
+            <div class="dropdown-content">
+                <a href="#">Tracking</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        </div>
+        <div class="dropdown contact-dropdown">
+            <button class="dropbtn">Contact</button>
+            <div class="dropdown-content">
+                <a href="#">Email</a>
+                <a href="#">Number</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="youtube-container">
+    <div class="youtube-header">
+        <img src="./Assets/youtube-logo.webp" alt="YouTube Logo" onclick="window.location.href='https://www.youtube.com/c/NasiToys';">
+        <span class="channel-name" onclick="window.location.href='https://www.youtube.com/c/NasiToys';">NasiToys Channel</span>
+    </div>
+    <div class="youtube-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xRvS4LZJL2A?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    </div>    
+</div>
+
+<canvas class="background"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+<script src="script.js"></script>
+<script src="./Javascript/searchBar.js"></script>
+
+</body>
+</html>
