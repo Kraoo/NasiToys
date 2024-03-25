@@ -87,6 +87,18 @@ nav a:hover {
     color: #178813;
 }
 
+.navbarCart {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+
+.cartImg {
+    width: 25px;
+    height: 25px;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
