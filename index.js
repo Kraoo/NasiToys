@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+    document.querySelector('.navbarCart').addEventListener('click', function () {
+        const content = generateContent('cart');
+        loadContent(content);
+        document.querySelector('.youtube-container').style.display = "none";
+    });
+
     function generateContent(selection) {
         switch (selection) {
             case 'thomas & friends':
@@ -25,18 +31,34 @@ document.addEventListener("DOMContentLoaded", function () {
             case 'our process':
                 return "<h2>Our Process</h2><p>Find out how we create our toys.</p>";
             case 'tracking':
-                return "<h2>Tracking</h2><p>Track your order status here.</p>";
+                return Tracking();
             case 'refund policy':
                 return RefundPolicy();
             case 'email':
                 return EmailSubmission();
             case 'number':
                 return NumberInformation();
+            case 'cart':
+                return "<h2>Shopping Cart</h2><p>Your shopping cart is currently empty.</p>";
             default:
                 return "<h2>Page Not Found</h2><p>The requested page does not exist.</p>";
         }
     }
-    
+
+    function Tracking() {
+        return`
+        <div style="padding: 20px;">
+        <h2>ORDER STATUS</h2>
+        <p>Use the input below to check your order status.</p>
+        <form action="/search" method="GET" style="display: flex; flex-direction: column;>
+            <label for="orderNumber"></label>
+            <input type="text" id="orderNumber" name="orderNumber" placeholder="Enter Tracking Number" style="width: 20%; padding: 10px;">
+            <button type="submit" class="trackingBtn">Search</button>
+        </form>
+        </div>
+        `
+    }
+
     function RefundPolicy() {
         return `
         <div style="padding: 20px;">
@@ -118,11 +140,5 @@ document.addEventListener("DOMContentLoaded", function () {
         </form>
     </div>
     `
-    }
-    
-    if (window.location.pathname === "/index.html") {
-        document.querySelector('.youtube-container').style.display = "";
-    } else {
-        document.querySelector('.youtube-container').style.display = "none";
     }
 });
