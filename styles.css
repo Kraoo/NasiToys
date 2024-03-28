@@ -288,6 +288,28 @@ nav a:hover {
     transform: scale(2);
   }  
 
+  .trackingBtn {
+    background: linear-gradient(90deg, #0fa60f 0%, #7ccf7c 100%); 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0, 100, 0, 0.4); 
+    transition: transform 0.3s ease-in-out;
+    width: 8rem;
+    margin-top: 10px;
+  }
+
+  .trackingBtn:hover {
+    transform: translateY(-2px);
+  }
+
 /* Responsive */
 
 @media only screen and (max-width: 768px) {
