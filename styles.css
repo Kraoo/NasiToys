@@ -155,6 +155,10 @@ nav a:hover {
     z-index: -1;
 }
 
+#numberInfo {
+    margin-bottom: 250px;
+}
+
 .youtube-container {
     position: absolute;
     top: 150px; 
@@ -164,6 +168,7 @@ nav a:hover {
     background-color: #ffffff;
     padding: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -1;
 }
 
 .youtube-header {
@@ -250,6 +255,11 @@ nav a:hover {
     background-color: #f5f5f5;
 }
 
+#message {
+    width: 95%;
+    height: 200px;
+}
+
 .submitButton {
     position: relative;
     background: linear-gradient(90deg, #0fa60f 0%, #7ccf7c 100%); 
@@ -267,13 +277,13 @@ nav a:hover {
     transition: transform 0.3s ease-in-out;
     display: block;
     margin: 0 auto;
-  }
-  
-  .submitButton:hover {
+}
+
+.submitButton:hover {
     transform: translateY(-2px);
-  }
-  
-  .icon {
+}
+
+.icon {
     position: absolute;
     top: 0;
     left: 0;
@@ -282,13 +292,13 @@ nav a:hover {
     background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 20%, transparent 90%);
     transform: scale(0);
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  }
-  
-  .submitButton:hover .icon {
-    transform: scale(2);
-  }  
+}
 
-  .trackingBtn {
+.submitButton:hover .icon {
+    transform: scale(2);
+}  
+
+.trackingBtn {
     background: linear-gradient(90deg, #0fa60f 0%, #7ccf7c 100%); 
     border: none;
     outline: none;
@@ -304,11 +314,46 @@ nav a:hover {
     transition: transform 0.3s ease-in-out;
     width: 8rem;
     margin-top: 10px;
-  }
+}
 
-  .trackingBtn:hover {
+.trackingBtn:hover {
     transform: translateY(-2px);
-  }
+}
+
+.welcomeInfo {
+    padding: 20px;
+    font-size: 12px;
+    font-family: MontserratIT;
+}
+
+.productImg {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    padding: 20px;
+}
+
+#orderNumber {
+    width: 20%;
+    padding: 10px;
+}
+
+#trackingInfo {
+    margin-bottom: 200px;
+}
+
+footer {
+    background: linear-gradient(to right, #3bb78f, #0bab64);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
 /* Responsive */
 
@@ -336,5 +381,19 @@ nav a:hover {
 
     .youtube-container {
         display: none;
+    }
+
+    #orderNumber {
+        width: 40%; 
+        padding: 10px;
+        font-size: 14px; 
+    }
+
+    .productImg {
+        width: calc(50% - 40px); 
+        max-width: 200px; 
+        height: auto;
+        display: inline-block;
+        padding: 20px;
     }
 }
