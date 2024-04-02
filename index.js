@@ -76,13 +76,28 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function AboutUs() {
-        return`
+        return `
         <div style="padding: 20px;">
-        <h2>About Us</h2>
-        <p>This is about us</p>
+        <h1>Welcome to NasiToys</h1>
+        <p>Your personal gateway to the enchanting world of Thomas and Friends!</p>
+    
+        <p>At NasiToys, it's not just about buying and selling – it's about fostering a sense of community and spreading the joy that these beloved characters bring. Whether you're a seasoned collector, a budding hobbyist, or simply seeking a special gift for a loved one, you'll find something to delight and inspire you here.</p>
+      
+        <p>Explore our carefully curated collection of Thomas and Friends toys, each one handpicked with care and attention to detail. From classic models to rare finds, every item has a story to tell and a place in your heart. Whether you're searching for pristine pieces to add to your collection or seeking a lovingly restored gem, NasiToys has you covered.</p>
+      
+        <p>But NasiToys isn't just about the toys – it's about the passion and dedication that goes into preserving and celebrating the magic of Thomas and Friends. As a one-person operation, I personally oversee every aspect of the business, from sourcing and restoring toys to providing exceptional customer service. Your satisfaction is my top priority, and I'm here to ensure that your experience with NasiToys is nothing short of delightful.</p>
+    
+        <p>Years ago, my fascination with Thomas and Friends was sparked by childhood memories of watching the show and receiving a special Limited Edition VHS Tape featuring a Wooden Railway Percy from my father. Although my interest waned over time, a serendipitous discovery of Tomy/Trackmaster trains reignited my passion for the hobby in late 2019 or early 2020. What started as a chance encounter at a thrift store blossomed into a thriving category in our online store, leading to the creation of a dedicated YouTube channel in February 2022.</p>
+    
+        <p>Through this channel, I've connected with fellow enthusiasts, made new friends, and forged valuable partnerships. It's been a journey fueled by nostalgia, creativity, and a deep appreciation for the timeless magic of Thomas and Friends.</p>
+    
+        <p>Join our growing community of fellow enthusiasts and connect with like-minded individuals who share your passion for all things Thomas and Friends. From lively discussions to exclusive insights and behind-the-scenes peeks, there's always something exciting happening in the world of NasiToys.</p>
+    
+        <p>Thank you for visiting NasiToys – I look forward to sharing the joy and wonder of Thomas and Friends with you!</p>
+    
         </div>
-        `
-    }
+        `;
+    }    
 
     function Tracking() {
         return`
