@@ -10,3 +10,4 @@ A sorta mock site I am making for a friend I know. Their site is [here](https://
 - [ ] Build cart page
 - [ ] Cart functionality
 - [ ] "Our Process" page
+- [ ] Search bar fix & functionality
