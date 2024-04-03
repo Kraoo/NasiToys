@@ -392,7 +392,7 @@ footer a {
 
     .productImg {
         width: calc(50% - 40px); 
-        max-width: 200px; 
+        max-width: 120px; 
         height: auto;
         display: inline-block;
         padding: 20px;
