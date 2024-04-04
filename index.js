@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             case 'about us':
                 return AboutUs();
             case 'our process':
-                return "<h2>Our Process</h2><p>Find out how we create our toys.</p>";
+                return OurProcess();
             case 'tracking':
                 return Tracking();
             case 'refund policy':
@@ -98,6 +98,45 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
         `;
     }    
+
+    function OurProcess() {
+        return `
+        <div style="padding: 20px;">
+        <h1>Welcome to our toy train remodeling workshop!</h1>
+        <p>At our facility, we take great pride in refurbishing toy trains to their former glory. Here's a glimpse into our meticulous process:</p>
+        
+        <ul>
+            <li><strong>Inspection and Disassembly:</strong>
+            <p>Upon receiving a new batch of engines, our expert technicians conduct a comprehensive inspection to assess their condition. We carefully disassemble each engine, ensuring every component is examined for wear and tear.</p></li>
+        
+            <li><strong>Thorough Cleaning:</strong>
+            <p>Cleanliness is paramount in our workshop. We use specialized solutions and equipment to give each part of the engine a thorough cleaning. From the exterior shell to intricate internal mechanisms, no detail is overlooked.</p></li>
+        
+            <li><strong>Precision Soldering and Rewiring:</strong>
+            <p>To guarantee optimal performance, we meticulously re-solder all joints and replace any old or damaged wires with brand-new ones. This step ensures reliable electrical connections and enhances the longevity of the train.</p></li>
+        
+            <li><strong>Cosmetic Restoration:</strong>
+            <p>Our skilled artisans meticulously touch up the paintwork, lining, and buffers of each engine. We pay close attention to detail, ensuring that every inch of the train looks pristine and vibrant.</p></li>
+        
+            <li><strong>Reassembly with Care:</strong>
+            <p>Once all components have been refurbished to perfection, we carefully reassemble the engine, following precise guidelines to ensure proper alignment and functionality.</p></li>
+        
+            <li><strong>Photography:</strong>
+            <p>Before listing the refurbished trains in our store, we showcase them in our state-of-the-art photo booth. Our high-resolution images capture the beauty and craftsmanship of each engine, providing customers with a clear view of what to expect.</p></li>
+        
+            <li><strong>Unique SKU Assignment:</strong>
+            <p>Each refurbished train receives a unique SKU (Stock Keeping Unit) number, allowing for easy identification and tracking. This ensures that customers can quickly find their desired train among our vast inventory.</p></li>
+        
+            <li><strong>Secure Packaging:</strong>
+            <p>Finally, we carefully package each refurbished engine, using high-quality materials to ensure its safety during transit. Our robust packaging ensures that the train arrives at its new home in pristine condition.</p></li>
+        </ul>
+        
+        <p>At our workshop, every refurbished toy train undergoes this rigorous process to ensure the highest quality standards. Whether you're a seasoned collector or a newcomer to the world of toy trains, you can trust that our remodeled engines are ready to delight and inspire for generations to come.</p>
+        
+        <p>Explore our collection today and find the perfect addition to your railway kingdom!</p>
+        </div>
+        `
+    }
 
     function Tracking() {
         return`
