@@ -392,9 +392,42 @@ footer a {
 
     .productImg {
         width: calc(50% - 40px); 
-        max-width: 120px; 
+        max-width: 100px; 
         height: auto;
         display: inline-block;
         padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .dropdown {
+        margin: 10px;
+    }
+
+    .dropdown-content {
+        font-size: 14px;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .youtube-container {
+        display: none;
+    }
+
+    #orderNumber {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .productImg {
+        width: calc(33.33% - 20px);
+        max-width: 150px;
+        padding: 10px;
     }
 }
