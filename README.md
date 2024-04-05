@@ -9,5 +9,5 @@ A sorta mock site I am making for a friend I know. Their site is [here](https://
 - [ ] Buttons for add to cart 
 - [ ] Build cart page
 - [ ] Cart functionality
-- [ ] "Our Process" page
+- [x] "Our Process" page
 - [ ] Search bar fix & functionality
