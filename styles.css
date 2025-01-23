@@ -396,6 +396,10 @@ footer a {
         height: auto;
         display: inline-block;
         padding: 20px;
+        border: 2px solid #aaa; /* Subtle grey border */
+        border-radius: 0; /* No rounded corners */
+        background-color: #fff; /* White background color */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     }
 }
 
